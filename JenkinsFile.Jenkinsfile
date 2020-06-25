@@ -20,11 +20,3 @@ pipeline {
    }
 }
 
- Virtual Box
-- Vm Linux Ubuntu
-- Jdk 8
-- Git
-- Maven
-- Jenkins
-- Pipeline JenkinsFile
-
