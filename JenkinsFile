@@ -4,17 +4,18 @@ pipeline {
    stages {
       stage('Etape1') {
          steps {
-            echo 'Hello World it is etape 1'
+            echo 'Hello World it is etape 1  cleanning'
+            mvn clean
          }
       }
       stage('Etape2') {
          steps {
-            echo 'Hello World it is etape 2'
+            echo 'Hello World it is etape 2 test'
          }
       }
       stage('Etape3') {
          steps {
-            echo 'Hello World it is etape 3'
+            echo 'Hello World it is etape 3 finish'
          }
       }
    }
